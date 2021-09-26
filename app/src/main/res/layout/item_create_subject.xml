@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/create_subject_cardView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginVertical="4dp"
+    android:background="#605E61"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:id="@+id/subject_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginVertical="12dp"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="16sp"
+                android:text="@string/course_id"/>
+            <TextView
+                android:layout_below="@id/subject_code"
+                android:id="@+id/subject_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginVertical="6dp"
+                android:layout_marginHorizontal="12dp"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="24sp"
+                android:text="@string/course_name"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

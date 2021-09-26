@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230080508581",
+    "project_id": "frattendencesystem",
+    "storage_bucket": "frattendencesystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230080508581:android:cf6abda69aa3b24721934c",
+        "android_client_info": {
+          "package_name": "com.alphaverse.facerecognitionattendencesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230080508581-8fmj1spkvc71944h7u89jjce1jqi5mtn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alphaverse.facerecognitionattendencesystem",
+            "certificate_hash": "a5960d82f5967b3123147f91b65e79dcd80b4c41"
+          }
+        },
+        {
+          "client_id": "230080508581-ft3s0fvektaik6on95o76n069rkfqpav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSdyDBv6h0upgpSP_OberXVvf5KsyeJWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230080508581-ft3s0fvektaik6on95o76n069rkfqpav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

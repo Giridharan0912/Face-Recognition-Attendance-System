@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shape_take_attendance"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginVertical="4dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/studentDetail_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#090909"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="1783433-Ramesh"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:id="@+id/attendance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present"
+            android:textSize="20sp"
+            android:textColor="#090909"
+            android:layout_marginVertical="8dp"
+            android:paddingLeft="4dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
